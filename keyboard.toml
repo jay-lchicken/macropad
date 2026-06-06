@@ -24,8 +24,10 @@ direct_pin_low_active = true
 [layout]
 rows = 1
 cols = 6
-keymap = [
-    [["Num1"], ["Num2"], ["Num3"], ["Num4"], ["Num5"], ["Num6"]]
+layers = [
+    [
+        [["Num1"], ["Num2"], ["Num3"], ["Num4"], ["Num5"], ["Num6"]]
+    ]
 ]
 
 [[encoder]]
