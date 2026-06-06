@@ -18,13 +18,14 @@ input_pins = [
     "PIN_0"
 ]
 
+output_pins = []
 direct_pin_low_active = true
 
 [layout]
 rows = 1
 cols = 6
 keymap = [
-    ["K1", "K2", "K3", "K4", "K5", "K6"]
+    [["Num1"], ["Num2"], ["Num3"], ["Num4"], ["Num5"], ["Num6"]]
 ]
 
 [[encoder]]
