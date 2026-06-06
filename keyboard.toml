@@ -1,23 +1,15 @@
 [keyboard]
 name = "MacroPad"
+product_name = "MacroPad"
 vendor_id = 0xFEED
 product_id = 0x0001
 manufacturer = "Jayden"
-product_name = "MacroPad"
 
 [chip]
 type = "rp2040"
 
 [matrix]
-input_pins = [
-    "PIN_26",
-    "PIN_27",
-    "PIN_28",
-    "PIN_29",
-    "PIN_6",
-    "PIN_0"
-]
-
+input_pins = ["PIN_26", "PIN_27", "PIN_28", "PIN_29", "PIN_6", "PIN_0"]
 output_pins = []
 direct_pin_low_active = true
 
@@ -25,9 +17,7 @@ direct_pin_low_active = true
 rows = 1
 cols = 6
 layers = [
-    [
-        [["Num1"], ["Num2"], ["Num3"], ["Num4"], ["Num5"], ["Num6"]]
-    ]
+    [["Num1"], ["Num2"], ["Num3"], ["Num4"], ["Num5"], ["Num6"]]
 ]
 
 [[encoder]]
@@ -42,3 +32,7 @@ pin_b = "PIN_1"
 pin = "PIN_7"
 led_count = 6
 type = "sk6812"
+
+[vial]
+enabled = true
+keyboard_id = "jayden_macropad"
